@@ -1,0 +1,12 @@
+{
+  "FileVersion": 3,
+  "Category": "Games",
+  "Description": "A 3D storm chasing simulator built with Unreal Engine 5.",
+  "Modules": [
+    {
+      "Name": "TornadoChasing",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}
