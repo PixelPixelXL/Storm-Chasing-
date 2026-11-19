@@ -8,8 +8,8 @@ class UCameraComponent;
 class USpringArmComponent;
 
 /**
- * Starter character used to test first-person and third-person camera views.
- * Designed to be extended with Blueprint.
+ * Starter character for the storm-chasing prototype.
+ * Supports basic on-foot movement and first-/third-person camera views.
  */
 UCLASS(Blueprintable)
 class TORNADOCHASING_API AChaseCharacter : public ACharacter
@@ -32,6 +32,10 @@ protected:
     TObjectPtr<UCameraComponent> FirstPersonCamera;
 
 private:
+    void MoveForward(float Value);
+    void MoveRight(float Value);
+    void Turn(float Value);
+    void LookUp(float Value);
     void ToggleCamera();
 
     bool bIsFirstPerson = false;
