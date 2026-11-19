@@ -7,9 +7,11 @@
 - [x] Add a starter character with first-person and third-person cameras.
 - [x] Map the V key to switch camera views.
 - [x] Add on-foot movement, mouse look, and jumping.
+- [x] Add a physics-driven pickup pawn with throttle, steering, and chase camera.
+- [ ] Create a Blueprint truck and assign a suitable vehicle mesh and collision.
+- [ ] Add enter/exit interaction between the character and truck.
 - [ ] Generate project files and compile in the selected Unreal Engine 5 installation.
 - [ ] Create a small test level.
-- [ ] Add a basic pickup truck and enter/exit interaction.
 - [ ] Add a simple tornado actor for visual testing.
 
 ## Later versions
