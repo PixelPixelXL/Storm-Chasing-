@@ -6,6 +6,7 @@
 - [x] Set up a C++ game module that can be extended with Blueprints.
 - [x] Add a starter character with first-person and third-person cameras.
 - [x] Map the V key to switch camera views.
+- [x] Add on-foot movement, mouse look, and jumping.
 - [ ] Generate project files and compile in the selected Unreal Engine 5 installation.
 - [ ] Create a small test level.
 - [ ] Add a basic pickup truck and enter/exit interaction.
